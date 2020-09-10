@@ -1,0 +1,35 @@
+{
+	"name": "@alehechka/prettier-config",
+	"version": "1.0.0",
+	"description": "A Prettier shareable config for projects using 'Prettier' and 'JavaScript Standard Style' as ESLint rules or separate processes.",
+	"main": ".prettierrc.json",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:alehechka/prettier-config.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"eslint-config",
+		"eslintplugin",
+		"eslint-plugin",
+		"JavaScript Standard Style",
+		"jsstandard",
+		"lint",
+		"prettier",
+		"prettierconfig",
+		"prettier-config",
+		"standard",
+		"standard style"
+	],
+	"scripts": {
+		"pregit": "git add *",
+		"git": "git commit",
+		"postgit": "git push"
+	},
+	"author": "Adam Lehechka (https://github.com/alehechka)",
+	"license": "MIT",
+	"publishConfig": {
+		"registry": "https://registry-url"
+	}
+}
